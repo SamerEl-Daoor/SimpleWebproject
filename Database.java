@@ -15,9 +15,9 @@ public class Database {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
-	      String localhost = null;
+	      String localhost = null,ROOT="root",PASS="20113519sS!";
 		try {
-			Connection conn = DriverManager.getConnection(localhost, "root", "20113519sS!");
+			Connection conn = DriverManager.getConnection(localhost, ROOT, PASS);
 			success=true;
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
